@@ -257,7 +257,7 @@ header .banner {
     -webkit-transform: rotate(-45deg)
 }
 .index-wrapper section#timeline article div.inner img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .index-wrapper section#timeline article div.inner p {
