@@ -345,6 +345,13 @@ header .banner {
     border-radius: 50%;
     top: -50px;
 }
+
+.author-bio {
+    position: relative;
+    top: -50px;
+    margin-bottom: 0;
+}
+
 .more-posts {
     position: relative;
     top: -25px;
@@ -366,6 +373,17 @@ footer a {
   Make it Responsive
 ===============================================================================
 */
+
+@media screen and (min-width: 2000px) {
+    header .banner h2 {
+        font-size: 3.5em;
+    }
+}
+@media screen and (min-width: 1400px) {
+    header .banner h2 {
+        font-size: 2.5em;
+    }
+}
 
 @media screen and (max-width:1000px) {
     .index-wrapper section#timeline article:nth-child(n) div.inner {
